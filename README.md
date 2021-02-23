@@ -1,6 +1,6 @@
 # sharetools
 
-Some of my commands for analyzing SHARE-seq
+Place to keep some SHARE-seq analysis scripts
 
 # Installing
 
