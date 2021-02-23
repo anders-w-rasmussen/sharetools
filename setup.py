@@ -15,7 +15,7 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    python_requires='>=3.6',
+    python_requires='>=3.8',
     scripts=['bin/sharetools'],
     include_package_data=True,
 
@@ -24,12 +24,9 @@ setuptools.setup(
         'numpy',
         'keras',
         'bioseq',
-        'biopython',
         'alive_progress',
         'pandas',
-        'tqdm',
         'halo',
-        'cmdstanpy',
         'tensorflow',
     ],
 
