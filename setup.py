@@ -8,8 +8,6 @@ setuptools.setup(
     description="Sharetools stuff",
     url="",
     packages=['sharetools'],
-    package_data={"": ["*.tsv", "*.txt", "*.cpp", "*.h5", "*.stan", "bigWigToWig", "bigWigToWig_linux"],
-                  },
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
@@ -17,7 +15,6 @@ setuptools.setup(
     ],
     python_requires='>=3.8',
     scripts=['bin/sharetools'],
-    include_package_data=True,
 
     install_requires=[
         'matplotlib',
